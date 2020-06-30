@@ -1,0 +1,18 @@
+/* Esta hoja permite cambiar el tema del sitio a AZUL. */
+
+body{
+    background: url('../imagenes/fondoazul.jpg');
+    background-attachment: fixed;
+}
+
+#logo{
+    background: #1f87C4;
+}
+
+#menu ul li:hover{
+    background: #1f87C4;
+}
+
+.boton_leermas{
+    background: #1f87C4;
+}

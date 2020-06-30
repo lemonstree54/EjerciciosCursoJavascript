@@ -1,0 +1,241 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+#global{
+    width: 65%;
+    margin: 0px auto;
+    margin-top: 30px;
+    padding: 25px;
+    background: white;
+    box-shadow: 0px 0px 2px gray;
+}
+
+#logo{
+    font-family: Verdana, Arial;
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 75px;
+    /*Se lleva a la hoja green.css - background: green; */
+    color: white;
+    text-align: center;
+    width: 385px;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+    text-transform: uppercase;
+}
+
+#menu{
+    font-family: Helvetica, Arial;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#menu ul{
+    line-height: 45px;
+    list-style: none;  
+}
+
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+    transition: all 300ms;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#posts{
+    width: 50%;
+    float: left;
+    font-family: Helvetica, Arial;
+}
+
+.post{
+    padding: 7px;
+}
+
+.h2{
+    font-size: 30px;
+    color: #333;
+    font-family: Helvetica, Arial;
+}   
+
+.post .fecha{
+    display: block;
+    color: gray;
+    margin-top: 5px;
+}
+
+.post p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.boton_leermas{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    /*Se lleva a la hoja green.css - background: green; */
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 70px;
+    margin-bottom: 20px;    
+}
+
+#sidebar{
+    font-family: Helvetica, Arial;
+    width: 42%;
+    float: right; 
+}
+
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: #333;
+    background: url("../imagenes/lines2.png") repeat-x;
+}
+
+#sidebar h4 span{
+    background: white;
+    padding: 5px;
+}
+
+#sidebar img{
+    width: 100%;
+}
+
+#sidebar p{
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select{
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-bottom: 10px; 
+    margin-top: 5px;   
+}
+
+form input[type="submit"]{
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
+}
+
+footer{
+    font-family: Helvetica, Arial;    
+    color:  white;
+    height: 47px;
+    background: rgba(51,51,51,0.70);
+    margin: 0px auto;
+    width: 65%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+    
+}
+
+#cambiar_tema{
+    position: fixed;
+    top: 40%;
+    background: rgba(51,51,51,0.90);
+    width: 50px;
+    height: 100px;
+}
+
+#cambiar_verde,
+#cambiar_rojo,
+#cambiar_azul{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0px auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#cambiar_verde{
+    background: green;
+}
+
+#cambiar_rojo{
+    background: #CA3413;
+}
+
+#cambiar_azul{
+    background: #1f87C4;
+}
+
+.subir{
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: right;
+}
+
+#box{
+    width: 50%;
+    float: left;
+    margin-top: 40px;
+}
+
+#reloj{
+    font-family: Helvetica, arial;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    border: 5px solid #333;
+    width: 30%;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+#form contact{
+    width: 45%;
+    margin-top: 15px;
+    font-family: Helvetica, Arial;
+}
+
+#form contact label{
+    display: block;
+    width: 10%;
+    margin-top:  5px;
+}

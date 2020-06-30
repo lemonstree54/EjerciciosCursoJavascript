@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Aprendiendo!!! JQUERY</title>
+ 
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css"/>
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.structure.min.css"/>
+        <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css"/>
+        <script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="js/06-interface.js"></script>        
+
+        <style>
+            .elemento{
+                width: 300px;
+                height: 200px;
+                border: 4px solid black;
+                background: lightblue;
+                margin: 20px;
+                float: left;
+            }
+
+            .listaSeleccionable li{
+                width: 80px;
+                /* height: 20px; */
+                padding: 20px; 
+                border: 1px solid black;
+                list-style: none;
+                cursor: pointer;
+
+            }
+
+            ul .ui-selecting{
+                background: green;
+            }
+
+            ul .ui-selected{
+                background: blue;
+            }
+
+        #elemento-movido{
+            width: 100px;
+            height: 100px;
+            border: 4px solid red;
+        }
+
+        #area{
+            width: 300px;
+            height: 300px;
+            border: 4px solid green;
+        }
+
+        .elemento{
+            background: magenta;
+            float: none;
+            display: none;
+        }
+
+        </style>
+
+        
+
+
+    </head>
+    <body>
+    <h1>Aprendiendo!!! JQUERY - JQUERY-UI!!!</h1>
+
+    <hr/>
+    <h3>Tooltip</h3>
+        <!-- Buscar jquery plugin  -->
+        <!-- https://iamceege.github.io/tooltipster/ -->
+        <a href='#' id="datos" title="Acceder a Datos WEB">Datos</a>
+        <a href='#' id="datos" title="Acceder a Datos WEB">Contactos</a>
+        <a href='#' id="datos" title="Acceder a Datos WEB">Ubicacion</a>        
+    <hr/>
+
+    <h3>Cuadros de dialogo</h3>     
+    <button id="cuadro_dialogo" >Cuadro diálogo</button>   
+        <div id="popup" title="Seguro?" style="display: none;">
+            <p>
+                Si continuas estudiando aprenderás mucho!!
+            </p>
+        </div>        
+    <hr/>
+
+    <h3>Calendario</h3>     
+    <input type="text" id="calendario" />
+
+    <hr/>
+
+    <h3>Panel de pestañas - Tabs</h3>     
+    <div id="pestanas">
+        <ul>
+            <li><a href="#tabs-1">Tab UNO</a></li>
+            <li><a href="#tabs-2">Tab DOS</a></li>
+            <li><a href="#tabs-3">Tab TRES</a></li>                
+        </ul>
+        <div id="tabs-1">
+            Hola Primer Tab.
+        </div>
+        <div id="tabs-2">
+            Hola Segundo Tab.
+        </div>
+        <div id="tabs-3">
+            Hola Tercer Tab.
+        </div>
+    </div>
+    
+    <hr/>
+
+    <button id="mostrar">Mostrar</button>
+    
+    <div class="caja-efectos elemento"></div>
+
+    <div id="elemento-movido"></div>
+    <div id="area"></div>
+    <ul class="listaSeleccionable">
+        <li>God of war</li>
+        <li>Halo</li>
+        <li>Crash bandicoot</li>
+        <li>Galaga</li>
+    </ul>
+
+    <div class="elemento">Creando elementos WEB UNO</div>
+
+    <div class="elemento">Creando elementos WEB DOS</div>
+
+    <div class="elemento">Creando elementos WEB TRES</div>
+
+    </body>
+</html>

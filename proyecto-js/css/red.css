@@ -1,0 +1,18 @@
+/* Esta hoja permite cambiar el tema del sitio a ROJO. */
+
+body{
+    background: url('../imagenes/fondorojo.jpg');
+    background-attachment: fixed;
+}
+
+#logo{
+    background: #CA3413;
+}
+
+#menu ul li:hover{
+    background: #CA3413;
+}
+
+.boton_leermas{
+    background: #CA3413;
+}

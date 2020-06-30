@@ -1,0 +1,18 @@
+/* Esta hoja permite cambiar el tema del sitio a VERDE. */
+
+body{
+    background: url('../imagenes/fondoverde.jpg');
+    background-attachment: fixed;
+}
+
+#logo{
+    background: green;
+}
+
+#menu ul li:hover{
+    background: green;
+}
+
+.boton_leermas{
+    background: green;
+}

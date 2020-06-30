@@ -1,0 +1,65 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Aprendiendo!!! JQUERY</title>
+
+        <!-- //ESTA PORCION DE CÓDIGO PREMITE EJECUTAR LAS FUNCIONALIDADES DE JQUERY. 
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous">
+        </script>
+        -->
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/01-selectores.js"></script>        
+        <script>
+            $(document).ready(function(){
+                console.log("Ok JQUERY Leo.")
+            });                
+        </script>
+        <style>
+            .leo{
+                border: 10px dashed black;
+            }
+
+            .leito{
+                font-size: 25px;
+            }
+            .margen_superior
+            {
+                margin-top: 45px;
+                display: block;
+            }
+
+            .resaltar{
+                border-bottom: 2px solid red;
+            }
+        </style>
+
+    </head>
+    <h1>Aprendiendo!!! JQUERY</h1>
+
+    <ul>
+        <li><a href="https://www.google.com" title="Google">Ir a Google</a></li>
+        <li><a href="https://www.firefox.com" title="Firefox">Ir a Firefox</a></li>
+        <li><a href="https://www.brave.com" title="Brave">Ir a Brave</a></li>
+        <li><a href="https://www.edge.com" title="Edge">Ir a Edge</a></li>
+    </ul>
+    <p id="rojo" class="leo">Parrafo ROJO</p>
+    <p id="amarillo" class="sin">parrafo AMARILLO</p>
+    <p id="azul"  class="leo">parrafo AZUL</p>
+    <p class="leo">Blanco</p>
+    <p class="sin">Sin color</p>
+    <p class="leo">Colores</p>
+
+    <div id="caja">
+        <p>Hola esto es una caja</p>
+        <ul>
+            <li>UNO</li>
+            <li class="resaltar">DOS</li>
+        </ul>
+        <span class="resaltar">SPAN...</span>
+
+    </div>>
+
+</html>
