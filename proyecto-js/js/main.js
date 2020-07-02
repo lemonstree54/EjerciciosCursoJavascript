@@ -122,4 +122,20 @@ $(document).ready(function(){
       
      }
 
+
+     //VALIDACIÓN DE LOS CAMPOS DEL FORMULARIO CONTACT
+     if(window.location.href.indexOf('contact') > -1) {
+
+        $("form Input[name='date']").datepicker({
+          dateFormat: 'dd-mm-yy'
+        });
+
+        $.validate({
+          lang: 'es',
+          errorMessagePosition: 'top',
+          scrollToTopOnError: true
+        });
+     
+    }
+
 });

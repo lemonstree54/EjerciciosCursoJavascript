@@ -63,25 +63,25 @@
                     <!--Se carga el formulario de contacto.-->                    
                     <form action="" method="POST" id="form contact">
                         <label for="name">Nombre:</label>
-                        <input type="text" name="name">
+                        <input type="text" name="name" data-validation="alphanumeric">
 
                         <label for="lastname">Apellidos:</label>
-                        <input type="text" name="lastname">
+                        <input type="text" name="lastname"  data-validation="alphanumeric">
 
                         <label for="email">Email:</label>
-                        <input type="text" name="email">
+                        <input type="text" name="email"  data-validation="email">
 
                         <label for="sex">Sexo:</label>
-                        <select name="" id="">
+                        <select name="sex"  data-validation="required">
                             <option value="man">Hombre</option>
                             <option value="woman">Mujer</option>
                         </select>
 
                         <label for="birthdate">Fecha Nacimiento:</label>
-                        <input type="text" name="birthdate"> 
+                        <input type="text" name="date"  data-validation="date"  data-validation-format="dd-mm-yyyy"> 
 
                         <label for="age">Edad:</label>
-                        <input type="number" name="age"> 
+                        <input type="number" name="age"  data-validation="number"> 
 
                         <input type="submit" value="Enviar">
                     </form>
